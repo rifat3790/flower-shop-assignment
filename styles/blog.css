@@ -155,6 +155,16 @@
     padding-top:10px ;
 }
 
+.section-1-header{
+    display: flex;
+    justify-content: center;
+}
+.section-1-header div{
+    width: 594px;
+    
+}
+  
+
 
 /* Main section 3 starts */
 
