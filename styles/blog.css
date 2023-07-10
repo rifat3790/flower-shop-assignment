@@ -68,6 +68,94 @@
 }
 
 
+/* Section 1 start */
+
+.section-1{
+    margin-top: 178px;
+}
+.section-1-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-1-description{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.section-1-image{
+    padding-top: 48px;
+    display: flex;
+    padding-left: 135px;
+}
+
+.section-1-image-1{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.img1{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.section-1-image-2{
+    margin-left: 24px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-2{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.section-1-image-3{
+    margin-left: 24px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.img-name{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 35px;
+    font-weight: 700;
+    font-style: normal;
+    color: #272727;
+    padding-top:10px ;
+}
+
+
 /* Main section 3 starts */
 
 .secion-3{
@@ -221,4 +309,56 @@
     padding-left: 16px;
 }
 
+/* End section 5 */
+
+
+/* Footer section start */
+
+.footer{
+    margin-top: 128px;
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-header{
+    padding-top: 128px;
+    width: 625px;
+    
+}
+
+.footer-title{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+#flower{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    /* width: 625px; */
+    flex-shrink: 0;
+    margin-top: 24px;
+    
+    font-family: Lato;
+}
+
+.last{
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 32px;
+    padding-left: 150px;
+}
 
